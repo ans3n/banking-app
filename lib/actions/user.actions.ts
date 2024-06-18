@@ -1,4 +1,4 @@
-"user server"
+"use server"
 
 import { ID } from "node-appwrite";
 import { createAdminClient, createSessionClient } from "../appwrite";
