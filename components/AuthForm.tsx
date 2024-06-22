@@ -55,15 +55,15 @@ const AuthForm = ({ type }: { type: string }) => {
       }
 
       if (type === "sign-in") {
-        /*
         const response = await signIn({
           email: data.email,
           password: data.password,
         })
+
+        //if we do get a response push to homepage
         if (response) {
           router.push('/');
         }
-        */
       }
       
     } catch (error) {
