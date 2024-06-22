@@ -81,10 +81,10 @@ const AuthForm = ({ type }: { type: string }) => {
             src="/icons/logo.svg"
             width={34}
             height={34}
-            alt="Encompass logo"
+            alt="Horizon logo"
           />
           <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-            Encompass
+            Horizon
           </h1>
         </Link>
         <div className="flex flex-col gap-1 md:gap-3">
@@ -188,7 +188,7 @@ const AuthForm = ({ type }: { type: string }) => {
                 <Button type="submit" disabled={isLoading} className="form-btn">
                   {isLoading ? (
                     <>
-                      <Loader2 size={20} className="animate-sping" /> &nbsp;
+                      <Loader2 size={20} className="animate-spin" /> &nbsp;
                       Loading...
                     </>
                   ) : type === "sign-in" ? (

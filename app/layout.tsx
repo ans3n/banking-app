@@ -10,8 +10,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Encompass Banking Dashboard",
-  description: "Encompass is designed to be a all encompassing dashboard for every finance account",
+  title: "Horizon Banking Dashboard",
+  description: "Horizon is designed to be a all encompassing dashboard for every finance account",
   icons: {
     icon: '/icons/logo.svg'
   }
